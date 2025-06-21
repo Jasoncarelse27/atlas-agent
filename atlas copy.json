@@ -1,0 +1,1103 @@
+{
+  "name": "Atlas",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "design-agent-webhook",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        -1460,
+        2480
+      ],
+      "id": "ca264104-5b7a-4251-8e09-e6aac2c87477",
+      "name": "Webhook Trigger",
+      "webhookId": "aac3aed4-c2e7-495b-83d0-b09577adcc61"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.body.message || $json.body.text || $json.body.audio || $json.body.image || 'No prompt provided.' }}",
+        "options": {
+          "systemMessage": "You are Atlas, a helpful AI assistant. You are currently talking to {{ $json.body.userId || 'a user' }}. Provide clear, friendly, and informative responses."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.9,
+      "position": [
+        340,
+        2480
+      ],
+      "id": "3a2a57a4-bb6d-468e-8ad3-3e5e0111f6be",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4"
+        },
+        "options": {
+          "temperature": 0.7,
+          "systemMessage": "You are Atlas, a helpful and friendly AI assistant. Respond in a natural, conversational way while being informative and precise."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        360,
+        2700
+      ],
+      "id": "599a12cc-9500-4fd0-97d0-e6e2896aac3f",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "9jYdTNMLJe16KnJN",
+          "name": "OpenAi account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "38ce3029-022a-456e-91dc-bf10b1e3e275",
+              "name": "text",
+              "value": "={{$json.body.context.conversationHistory}}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -860,
+        2480
+      ],
+      "id": "a555ba15-546d-4469-aabd-86a1a4dac32f",
+      "name": "Text Only Prompt"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.body.audio }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "exists",
+                      "singleValue": true
+                    },
+                    "id": "cd6e4002-eecf-462c-abb4-6dd38261e6af"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Audio"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "54fd7920-9a8b-4e76-bc1a-0c5adbba428c",
+                    "leftValue": "={{$json.body.message}}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "exists",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Text"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "loose",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "712ff8f4-7756-4860-8b02-d83f22d89fe8",
+                    "leftValue": "={{ $json.body.image }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "object",
+                      "operation": "exists",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Image"
+            }
+          ]
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -1180,
+        2480
+      ],
+      "id": "ed1897ce-b7e9-4ec1-a3db-23aff1ed83f5",
+      "name": "Switch"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.body.audio.url }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4eGZ3d2Vocm5jemhndWR3dXRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgwMjQ4MTQsImV4cCI6MjA2MzYwMDgxNH0.bd1NUhxQR4BSY57qqxlBB18opsQq63iH7VCt6iWp5qE"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4eGZ3d2Vocm5jemhndWR3dXRxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODAyNDgxNCwiZXhwIjoyMDYzNjAwODE0fQ.ihre17m9gRJxb9hlWOWIMeOp_TAM_h4CNk6jU_9qx04"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -860,
+        2260
+      ],
+      "id": "804f9f89-fe97-4574-9267-947ccf937f05",
+      "name": "Download Audio (Atlas)"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.body.image.url }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4eGZ3d2Vocm5jemhndWR3dXRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgwMjQ4MTQsImV4cCI6MjA2MzYwMDgxNH0.bd1NUhxQR4BSY57qqxlBB18opsQq63iH7VCt6iWp5qE"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4eGZ3d2Vocm5jemhndWR3dXRxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODAyNDgxNCwiZXhwIjoyMDYzNjAwODE0fQ.ihre17m9gRJxb9hlWOWIMeOp_TAM_h4CNk6jU_9qx04"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -860,
+        2720
+      ],
+      "id": "fc771d0e-e67f-4e1a-ba30-a829313dea97",
+      "name": "Download Image (Atlas)"
+    },
+    {
+      "parameters": {
+        "resource": "audio",
+        "operation": "transcribe",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        440,
+        2120
+      ],
+      "id": "9c316bb1-ddce-4da2-928a-924a9a2d3956",
+      "name": "Transcribe audio",
+      "credentials": {
+        "openAiApi": {
+          "id": "9jYdTNMLJe16KnJN",
+          "name": "OpenAi account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a8d81b85-06f7-4b32-8549-4a832c2f5da1",
+              "name": "text",
+              "value": "={{ $json.body.text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        660,
+        2120
+      ],
+      "id": "36096fa4-5d22-4b19-bd91-1530138ceabe",
+      "name": "Audio Prompt"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "c006468b-7105-4bad-9704-ff41466fae9e",
+              "leftValue": "=  {{ $json.audio }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            },
+            {
+              "id": "8cb4033e-7a90-4048-94f2-a5face04fad8",
+              "leftValue": "={{ $json.text }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            },
+            {
+              "id": "b0a44c20-f984-4b70-9d2c-d07c018bbda7",
+              "leftValue": "={{ $json.image }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "or"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        960,
+        2480
+      ],
+      "id": "5ae2e2d8-2ca7-4994-bd93-ef5f4850bfc1",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://sxxfwwehrnczhgudwutq.supabase.co/rest/v1/webhook_logs",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4eGZ3d2Vocm5jemhndWR3dXRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDgwMjQ4MTQsImV4cCI6MjA2MzYwMDgxNH0.bd1NUhxQR4BSY57qqxlBB18opsQq63iH7VCt6iWp5qE"
+            },
+            {
+              "name": "Authorization",
+              "value": "=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4eGZ3d2Vocm5jemhndWR3dXRxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODAyNDgxNCwiZXhwIjoyMDYzNjAwODE0fQ.ihre17m9gRJxb9hlWOWIMeOp_TAM_h4CNk6jU_9qx04"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1360,
+        2740
+      ],
+      "id": "9b25157c-69d6-475f-a3d5-b2b59d34f0b5",
+      "name": "Respond with Text (Atlas)"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "4a24e1dd-5e5f-43d9-92e0-c230ca5e94c0",
+              "name": "text",
+              "value": "=# The user provided the following image and text.\n\n# Image Description:{{ $json.body.content }}\n\n## User message: {{ $('Webhook Trigger').item.json.body.messages[0].image.caption ||\"Describe this image.\"}}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        640,
+        2880
+      ],
+      "id": "2f448464-7e29-4213-9065-127177ac9368",
+      "name": "Image + Text Prompt"
+    },
+    {
+      "parameters": {
+        "resource": "audio",
+        "model": "tts-1-hd",
+        "input": "={{ $('AI Agent').item.json.output }}",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1180,
+        2460
+      ],
+      "id": "6f3742ca-e186-45ba-b429-5b12aa099ee6",
+      "name": "Generate Audio",
+      "credentials": {
+        "openAiApi": {
+          "id": "9jYdTNMLJe16KnJN",
+          "name": "OpenAi account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\n  \"response\": \"{{ $json.response.generations[0][0].text }}\",\n  \"audioUrl\": \"{{ $json.audioUrl || '' }}\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [
+        2180,
+        1980
+      ],
+      "id": "e57db6b2-15df-4e99-9d2c-fbf4ec5988aa",
+      "name": "Respond to Webhook (Text)"
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "operation": "analyze",
+        "modelId": {
+          "__rl": true,
+          "value": "chatgpt-4o-latest",
+          "mode": "list",
+          "cachedResultName": "CHATGPT-4O-LATEST"
+        },
+        "text": "Describe this image in detail.",
+        "inputType": "base64",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        380,
+        2880
+      ],
+      "id": "ca249067-436b-47b5-91dd-a1ad5669c0a2",
+      "name": "Analyze Image1",
+      "credentials": {
+        "openAiApi": {
+          "id": "9jYdTNMLJe16KnJN",
+          "name": "OpenAi account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://sxxfwwehrnczhgudwutq.supabase.co/rest/v1/webhook_logs",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4eGZ3d2Vocm5jemhndWR3dXRxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODAyNDgxNCwiZXhwIjoyMDYzNjAwODE0fQ.ihre17m9gRJxb9hlWOWIMeOp_TAM_h4CNk6jU_9qx04"
+            },
+            {
+              "name": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4eGZ3d2Vocm5jemhndWR3dXRxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODAyNDgxNCwiZXhwIjoyMDYzNjAwODE0fQ.ihre17m9gRJxb9hlWOWIMeOp_TAM_h4CNk6jU_9qx04"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Prefer",
+              "value": "return=minimal"
+            }
+          ]
+        },
+        "sendBody": true,
+        "jsonBody": "={\n    \"user_id\": \"{{ $json.sessionId }}\",\n    \"prompt\": \"{{ $json.text || $json.audio || $json.image }}\",\n    \"response\": \"{{ $json.output }}\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        680,
+        2480
+      ],
+      "id": "8fb2d9fc-f672-48ba-93f2-e17289ab7b77",
+      "name": "Log Conversation to Supabase1"
+    },
+    {
+      "parameters": {
+        "numberInputs": 3
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.1,
+      "position": [
+        -560,
+        2480
+      ],
+      "id": "bf47f56c-119f-4215-9105-ed7c186e248c",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "jsCode": "function uuidv4() {\n  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n}\n\nconst item = $input.first();\nreturn [{\n  json: {\n    userId: item.json.body?.userId || item.json.userId || 'test-user',\n    text: item.json.body?.text || item.json.text,\n    audio: item.json.body?.audio || item.json.audio,\n    image: item.json.body?.image || item.json.image,\n    randomString: uuidv4() // <--- add this line\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -340,
+        2480
+      ],
+      "id": "cb46baad-271b-4351-a1c2-6c25c7030bc5",
+      "name": "Code"
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        560,
+        2700
+      ],
+      "id": "dafc1eb4-cb9f-4534-a8db-a8a0f975fef3",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "aeceeb6e-332a-47c4-8559-46df9b44c6ff",
+              "name": "sessionId",
+              "value": "={{ $json.userId }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -120,
+        2480
+      ],
+      "id": "3c9c919d-2751-4393-8f59-6436abd5bfe9",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{$json[\"outputType\"]}}",
+                    "rightValue": "audio",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "b1f72aec-c4f8-4bf3-81d2-ded112e1e889"
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "478cb5b0-ffb0-4e11-b362-6c083335180e",
+                    "leftValue": "={{$json[\"outputType\"]}}",
+                    "rightValue": "text",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        860,
+        2880
+      ],
+      "id": "91d8b93d-9e0d-42b4-8385-191d0d878db6",
+      "name": "Switch1"
+    },
+    {
+      "parameters": {
+        "jsCode": "function uuidv4() {\n  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n}\n\nreturn items.map(item => {\n  // Keep the existing binary data\n  const binary = item.binary;\n  \n  // Add randomString to json\n  item.json.randomString = uuidv4();\n  \n  // Return item with both json and binary data\n  return {\n    json: item.json,\n    binary: binary\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1700,
+        2240
+      ],
+      "id": "52900719-9d5c-47c1-a532-2c12af98658e",
+      "name": "Code1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://sxxfwwehrnczhgudwutq.supabase.co/storage/v1/object/atlas-files/audio/{{ $now }}-response.mp3",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "=Authorization",
+              "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4eGZ3d2Vocm5jemhndWR3dXRxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODAyNDgxNCwiZXhwIjoyMDYzNjAwODE0fQ.ihre17m9gRJxb9hlWOWIMeOp_TAM_h4CNk6jU_9qx04"
+            },
+            {
+              "name": "Content-Type",
+              "value": "audio/mpeg"
+            },
+            {
+              "name": "x-upsert",
+              "value": "true"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "binaryData",
+        "inputDataFieldName": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1340,
+        1960
+      ],
+      "id": "c01ad310-bb77-4b16-ae9f-19ed81071354",
+      "name": "Upload Audio to Supabase"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.1,
+      "position": [
+        1700,
+        1980
+      ],
+      "id": "d70d529b-ae4c-45b1-976a-e351d496148f",
+      "name": "Merge1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "d02f45dc-ea61-4151-8c27-ccaa9cad7947",
+              "name": "safeDate",
+              "value": "={{$now.format('YYYY-MM-DD_HH-mm-ss')}}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1700,
+        2460
+      ],
+      "id": "f0d52681-58cb-4153-9563-b392459a00c6",
+      "name": "safeDate"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineByPosition",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.1,
+      "position": [
+        1940,
+        2240
+      ],
+      "id": "4be0c680-8eef-43de-8ccb-eca71c4dc1ea",
+      "name": "Merge2"
+    },
+    {
+      "parameters": {
+        "operation": "formatDate",
+        "date": "={{$now}}",
+        "format": "custom",
+        "customFormat": "YYYY-MM-DD_HH-mm-ss",
+        "outputFieldName": "safeDate",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dateTime",
+      "typeVersion": 2,
+      "position": [
+        1500,
+        2460
+      ],
+      "id": "4d737652-a50b-4897-b334-25d28c31c542",
+      "name": "Date & Time"
+    },
+    {
+      "parameters": {
+        "options": {
+          "responseCode": 200,
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          },
+          "responseData": "json",
+          "responseBody": {
+            "response": "={{ $('AI Agent').item.json.output }}",
+            "audioUrl": "={{ $('Upload Audio to Supabase').item.json.url || '' }}"
+          }
+        }
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.3,
+      "position": [
+        2180,
+        2240
+      ],
+      "id": "79d61117-4324-4e32-a40a-2b30eca1b326",
+      "name": "Respond to Webhook"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Switch",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Log Conversation to Supabase1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Text Only Prompt": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Switch": {
+      "main": [
+        [
+          {
+            "node": "Download Audio (Atlas)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Text Only Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Download Image (Atlas)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download Audio (Atlas)": {
+      "main": [
+        [
+          {
+            "node": "Transcribe audio",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Transcribe audio": {
+      "main": [
+        [
+          {
+            "node": "Audio Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Audio Prompt": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Generate Audio",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond with Text (Atlas)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download Image (Atlas)": {
+      "main": [
+        [
+          {
+            "node": "Analyze Image1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Image + Text Prompt": {
+      "main": [
+        [
+          {
+            "node": "Switch1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Analyze Image1": {
+      "main": [
+        [
+          {
+            "node": "Image + Text Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log Conversation to Supabase1": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Respond to Webhook (Text)": {
+      "main": [
+        []
+      ]
+    },
+    "Generate Audio": {
+      "main": [
+        [
+          {
+            "node": "Code1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Upload Audio to Supabase",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Date & Time",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch1": {
+      "main": [
+        [
+          {
+            "node": "Generate Audio",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond with Text (Atlas)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code1": {
+      "main": [
+        [
+          {
+            "node": "Merge2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload Audio to Supabase": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge1": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook (Text)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "safeDate": {
+      "main": [
+        [
+          {
+            "node": "Merge2",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Merge2": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Date & Time": {
+      "main": [
+        [
+          {
+            "node": "safeDate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "versionId": "1b0bff45-95d0-494b-b978-0b5c2df9a0e5",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "f964e2c2f1723c71790315e6e074be04e7b6974680711cffdad5583f2b29b60c"
+  },
+  "id": "kCeno9NnO25RJmN5",
+  "tags": []
+} 
