@@ -1,0 +1,1139 @@
+[Important]  Airport: Airport EGLL has secondary json, loading it...
+[Important]  Airport: Airport KIAD has secondary json, loading it...
+[Important]  ✔ Succesfully loaded 11021 navaids from 'navaids' CSV file!
+[Important]  MainMenu: ---------------- MainMenu / Awake() ----------------
+[Important]  MainMenu: ---------------- MainMenu / Start() ----------------
+[NoteWorthy]  Applying Livery i=1...
+[NoteWorthy]  Liveries: Applying livery: 1
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [61e0cf0d8e21d49d58379662e8d9bc12]
+[Important]  IAPManager: Waiting for RemoteConfig.unlockables to be initialized
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  RemoteConfig: RemoteConfig: Waiting for user to sign in before requesting RemoteConfig...
+[NoteWorthy]  Script [MyUnityCloud.RemoteConfig] is now loaded!
+[NoteWorthy]  PlayerAccounts: Starting Authentication...
+[NoteWorthy]  PlayerAccounts: AuthenticationService: Is SignedIn: False
+[NoteWorthy]  PlayerAccounts: Is Authorized: False
+[NoteWorthy]  PlayerAccounts: Is Expired: False
+[NoteWorthy]  PlayerAccounts: Session Token Exists: True
+[NoteWorthy]  PlayerAccounts: PlayerAccountService: Is SignedIn: False
+[NoteWorthy]  PlayerAccounts: SessionTokenExists, Attempting re-login...
+[Important]  PilotRankSystem: Current Rank : Captain
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[NoteWorthy]  {"LGAV":{"stars":4,"score":1796,"aircraftId":null,"VerticalVelocityTouchdown":-3.46850061,"distanceFromTouchdownZone":201.770813},"FACT":{"stars":4,"score":1606,"aircraftId":null,"VerticalVelocityTouchdown":-3.83466,"distanceFromTouchdownZone":246.739075},"EGSS":{"stars":4,"score":1728,"aircraftId":null,"VerticalVelocityTouchdown":-0.00653213263,"distanceFromTouchdownZone":385.621918}}
+[NoteWorthy]  GoogleAdManager: Initializing Admob!...
+[Important]  AppTrackingTransparency != DENIED, initializing GDPR request!
+[NoteWorthy]  ✓ Signed in cached player anonymously!
+[Important]  Leaderboard: Getting leaderboard
+[NoteWorthy]  DataSyncManager: Syncing...
+[Important]  AndroidInit: OnLocationsLoaded
+[NoteWorthy]  AndroidInit: Found Asset: Assets/Resources Async Addressables/AIAircrafts/380_AI_prefab.prefab
+[NoteWorthy]  AndroidInit: Found Asset: Assets/Resources Async Addressables/AIAircrafts/AI_A320_decim_prefab.prefab
+[NoteWorthy]  AndroidInit: Found Asset: Assets/Resources Async Addressables/AIAircrafts/AI_A320neo.prefab
+[NoteWorthy]  AndroidInit: Found Asset: Assets/Resources Async Addressables/AIAircrafts/AI_A330.prefab
+[NoteWorthy]  AndroidInit: Found Asset: Assets/Resources Async Addressables/AIAircrafts/AI_A359.prefab
+[NoteWorthy]  AndroidInit: Found Asset: Assets/Resources Async Addressables/AIAircrafts/AI_777E.prefab
+[NoteWorthy]  UnityAdsInit: UnityAdsInit.Awake
+[NoteWorthy]  UnityAdsInit: UnityAdsInit.InitializeAds with gameId = 3626124,  _testMod=True
+[Important]  GlobalAdsManager: Initialized
+[NoteWorthy]  CreateProTooltip : Tooltip already shown, skipping...
+[NoteWorthy]  Condition is now true!
+[Important]  RemoteConfig: RemoteConfig: User is signed in, requesting RemoteConfig...
+[Important]  ✔  Succesfully loaded asset: ChainOperation<Texture> - InitializationOperation
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: Air Canada (async)!
+[NoteWorthy]  Liveries: ✔ Applied livery (id=1): Air Canada!
+[Important]  DataSyncManager: Applying merged playerdata locally...
+[Important]  DataSyncManager: PlayerPrefs XP = 482 merged XP = 482
+[NoteWorthy]  DataSyncManager: Unlocking item =  in PlayerPrefs!
+[Important]  ✓ DataSyncManager: Sync Success!
+[NoteWorthy]  PlayerAccounts: playerId = c5Rt9wb5X3N2pzeyDlmzdEvt2VnB
+[NoteWorthy]  RemoteConfig: RemoteConfig fetched, applying to game...
+[Important]  ✔ Succesfully loaded 1486 waypoints from 'waypoints' Remote Config!
+[Important]  Airport: Airport EGLL has secondary json, loading it...
+[Important]  Airport: Airport KIAD has secondary json, loading it...
+[NoteWorthy]  PlayerAccounts: playerName = Jaylot#9710
+[NoteWorthy]  to proion A320 DEN einai premium, h den exei kataxwri8ei sto myProducts list.
+[Important]  TimeZoneDB: TimeZoneDB query: https://api.timezonedb.com/v2.1/get-time-zone?key=UCUHEADSKQDM&format=json&by=position&lat=37.933&lng=23.955
+[NoteWorthy]  TimeZoneDB: Submitting GET request for time zone UTC offset...
+[Important]  IAPManager: RemoteConfig.unlockables is initialized, initializing purchasing...
+[Important]  IAPManager: ----> InitializePurchasing()
+[NoteWorthy]  IAPManager: Adding product: product_a330
+[NoteWorthy]  IAPManager: Adding product: product_A330neo
+[NoteWorthy]  IAPManager: Adding product: product_a346
+[NoteWorthy]  IAPManager: Adding product: product_a343
+[NoteWorthy]  IAPManager: Adding product: product_B742
+[NoteWorthy]  IAPManager: Adding product: product_a359
+[NoteWorthy]  IAPManager: Adding product: product_a351
+[NoteWorthy]  IAPManager: Adding product: product_a380
+[NoteWorthy]  IAPManager: Adding product: product_b777
+[NoteWorthy]  IAPManager: Adding product: product_B747
+[NoteWorthy]  IAPManager: Adding product: product_B787
+[NoteWorthy]  IAPManager: Adding product: product_A321
+[NoteWorthy]  IAPManager: Adding product: product_B737max
+[NoteWorthy]  IAPManager: Adding product: product_A321neo
+[NoteWorthy]  IAPManager: Adding product: product_NoAds
+[Important]  GoogleAdManager: ✔ AdMob initialized
+[NoteWorthy]  GoogleAdManager: Loading interstitial Ad!...
+[NoteWorthy]  GoogleAdManager: Loading the interstitial ad.
+[NoteWorthy]  GoogleAdManager: Loading banner Ad!... (CanvasAppTracking is not on screen)
+[NoteWorthy]  GoogleAdManager: Creating banner view
+[Important]  UnityAdsInit: Unity Ads initialization complete.
+[Important]  IAPManager: OnInitialized: PASS
+[NoteWorthy]  MainMenu: OnDropdownLocationChange()
+[NoteWorthy]  UnityAdsBanner: Banner loaded
+[NoteWorthy]  GoogleAdManager: Loading rewarded Ad!...
+[NoteWorthy]  GoogleAdManager: Interstitial ad loaded with response :   ** Response Info **
+    Response ID: sttTaNO_Htup1fAP05-0-AE
+    Network: GADMAdapterGoogleAdMobAds
+
+  ** Loaded Adapter Response **
+    Network: GADMAdapterGoogleAdMobAds
+    Ad Source Name:AdMob Network
+    Ad Source ID:5450213213286189855
+    Ad Source Instance Name:AdMob (default)
+    Ad Source Instance ID:AdMob (default)
+    AdUnitMapping:
+{
+    pubid = "ca-app-pub-6950748492179693/4733645025/cak=no_cache&cadc=ec&caqid=sttTaMirHZrj2fcPub3RqQ4";
+}
+    Error: (null)
+    Latency: 2.553
+
+  ** Extras Dictionary **
+    {
+        "mediation_group_name" = "AdMob (default)";
+    }
+
+  ** Mediation line items **
+    Entry (1)
+    Network: GADMAdapterGoogleAdMobAds
+    Ad Source Name:AdMob Network
+    Ad Source ID:5450213213286189855
+    Ad Source Instance Name:AdMob (default)
+    Ad Source Instance ID:AdMob (default)
+    AdUnitMapping:
+{
+    pubid = "ca-app-pub-6950748492179693/4733645025/cak=no_cache&cadc=ec&caqid=sttTaMirHZrj2fcPub3RqQ4";
+}
+    Error: (null)
+    Latency: 2.553
+
+[Important]  MainMenu: 'NoAds' not purchased. Showing interstitial.
+[Important]  GlobalAdsManager: ShowInterstitial
+[Important]  GlobalAdsManager: DestroyBanner
+[NoteWorthy]  String: Destroying banner ad.
+[Important]  GlobalAdsManager: DestroyBanner
+[Important]  MapboxTerrainHandler: FileCacheSize set to: 5000
+[Important]  Init: ---------------- Init / Start() ----------------
+[Important]  MySpriteLights: SceneIlluminationTracker.isNight changed (False), updating Sprite Lights mesh renderers....
+[NoteWorthy]  NightMaterials: Attempting to UpdateEmission() ...
+[Important]  SceneIlluminationTracker: Changing ambientOcclusion to 'True' and Bloom to 'False' because isNight=False
+[NoteWorthy]  NightMaterials: Attempting to UpdateEmission() ...
+[Important]  AirportCreatorWeb: Loading airport = LGAV because we are in Generic scene!
+[Important]  AirportCreatorWeb: Set root airport object position according geo coords!
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [f7016f185df044afda03e81344801832]
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : Mobile_gangway
+[NoteWorthy]  AirportCreatorWeb: Attempting to set mapbox coordinates from airport json...
+[NoteWorthy]  AirportCreatorWeb: Setting location of MapBox Map Map [HighDetail]
+[Important]  AirportCreatorWeb: Succesfully set Mapbox coordinates from Modular Airport Json! 37.933,23.955
+[NoteWorthy]  AirportCreatorWeb: Setting location of MapBox Map Map [MediumDetail]
+[Important]  AirportCreatorWeb: Succesfully set Mapbox coordinates from Modular Airport Json! 37.933,23.955
+[NoteWorthy]  AirportCreatorWeb: Setting location of MapBox Map [ALWAYS ACTIVE] Map [LowDetail]
+[Important]  AirportCreatorWeb: Succesfully set Mapbox coordinates from Modular Airport Json! 37.933,23.955
+[NoteWorthy]  AirportCreatorWeb: Setting location of MapBox Map Map [VeryLowDetail]
+[Important]  AirportCreatorWeb: Succesfully set Mapbox coordinates from Modular Airport Json! 37.933,23.955
+[NoteWorthy]  AirportCreatorWeb: Applying current day/night appropriate lighting for airport!
+[Important]  SceneIlluminationTracker: Attempting to SetActive(False)  2465 gameobjects...
+[Important]  AirportCreatorWeb: Airport does not have coordinates for Airport Objects!
+[NoteWorthy]  RunwayMarker2D: Keeping runway start marker!
+[NoteWorthy]  Script [MapboxTerrainHandler] is now loaded!
+[NoteWorthy]  AirportCreatorWeb: Applying airport Y fix: elevation: 98 , worldShifting.y = 0
+[NoteWorthy]  NightMaterials: Attempting to UpdateEmission() ...
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: jetwayNEW - 4676 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: jetwayNEW - 1792 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: kerb - 2954 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: airport_taxi_marking - 6842 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: mat - 10321 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: schild_taxiway_01 - 33200 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: RunwayStyle_LightSmooth - 568 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: RunwayStyle_DarkSmooth - 188 vertices.
+[Important]  Init: Loading Aircraft... 20%
+[Important]  Init: Loading player's aircraft from  !--Addressables--! folder
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : A320
+[Important]  SceneIlluminationTracker: Attempting to SetActive(False)  0 gameobjects...
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(Mobile_gangway.prefab)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : Passengerbus
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(Passengerbus.prefab)
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(grass EDDM style.png)
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320neo(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_B777(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A330(Clone) to False
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(A320.prefab)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : cockpit_A320
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : NavDisplay
+[Important]  Script [LandingGear] not yet loaded, trying again in 500 ms...
+[Important]  ToggleSwitch: Added interactable instance PARK_BRAKE_Toggle 
+[Important]  Adjustable: Added interactable instance Thrust 
+[Important]  Adjustable: Added interactable instance Spoilers 
+[Important]  Adjustable: Added interactable instance Flaps_Adjustable 
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_A320neo(Clone) Applicable liveries: Aegean, SkyExpress, WizzAir
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM AI AIRCRAFT]AI_A320neo(Clone): Found a matching RANDOM home livery for this airport! (WizzAir)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [1259ea49100484da89fa63e2d0494122]
+[Important]  Script [LandingGear] not yet loaded, trying again in 500 ms...
+[Important]  Script [LandingGear] not yet loaded, trying again in 500 ms...
+[NoteWorthy]  Wind Speed Multiplier: 0.5 Turbulence Multiplier: 1.5
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(cockpit_A320.prefab)
+[Important]  Avionics: Awake()
+[Important]  Adjustable: Added interactable instance Thrust 
+[Important]  Adjustable: Added interactable instance Spoilers 
+[Important]  ToggleSwitch: Added interactable instance PARK_BRAKE_Toggle 
+[Important]  AddressablesManager: loaded cockpit addressable, firing event! OnCockpitAddressableLoaded 
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(NavDisplay.prefab)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : AirbusPFD
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(WizzAir.jpg)
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: WizzAir (async)!
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_A320neo(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture WizzAir to [RANDOM AI AIRCRAFT]AI_A320neo(Clone)!
+[Important]  CockpitInteractableObject: CockpitInteractableObject Initialized for object : engStartSel
+[NoteWorthy]  Script [Aerodynamics] is now loaded!
+[Important]  Avionics: OnAircraftInstantiated()
+[Important]  ToggleSwitch: Added interactable instance WPT 
+[Important]  ToggleSwitch: Added interactable instance VORD 
+[Important]  ToggleSwitch: Added interactable instance APT 
+[Important]  ToggleSwitch: Added interactable instance NDB 
+[Important]  Adjustable: Added interactable instance adjustable_NavRange 
+[Important]  ToggleSwitch: Added interactable instance WPT 
+[Important]  ToggleSwitch: Added interactable instance NDB 
+[Important]  ToggleSwitch: Added interactable instance VORD 
+[Important]  ToggleSwitch: Added interactable instance APT 
+[Important]  Adjustable: Added interactable instance adjustable_NavRange 
+[Important]  Adjustable: Added interactable instance ALT 
+[Important]  Adjustable: Added interactable instance SPD 
+[Important]  Adjustable: Added interactable instance HDG 
+[Important]  Adjustable: Added interactable instance VS 
+[Important]  ToggleSwitch: Added interactable instance Toggle_AP1 
+[Important]  ToggleSwitch: Added interactable instance Toggle_ATHR 
+[Important]  ToggleSwitch: Added interactable instance Toggle_AP1 
+[Important]  ToggleSwitch: Added interactable instance Toggle_ATHR 
+[Important]  FCU Initialized!
+[NoteWorthy]  Script [Pedestal] is now loaded!
+[Important]  Adjustable: Added interactable instance Flaps_Adjustable 
+[Important]  ToggleSwitch: Added interactable instance BAT_ToggleSwitch 
+[Important]  ToggleSwitch: Added interactable instance Seatbelts 
+[NoteWorthy]  Script [LandingGear] is now loaded!
+[NoteWorthy]  Script [Flaps] is now loaded!
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(AirbusPFD.prefab)
+[NoteWorthy]  Applying livery for player ID=0...
+[NoteWorthy]  Applying Livery i=0...
+[NoteWorthy]  Liveries: Applying livery: 0
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [dfa895182df4b4b10afd251f49be2ab2]
+[NoteWorthy]  Condition is now true!
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_A330(Clone) Applicable liveries: Emirates, QATAR, Turkish
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM AI AIRCRAFT]AI_A330(Clone): Found a matching RANDOM home livery for this airport! (QATAR)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [787354e0618484a1497e9ef0bd472fbb]
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(Aegean.jpg)
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: Aegean (async)!
+[Important]  Liveries: Forcing materials on A320_liv...
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr.001
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: aileron-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr
+[NoteWorthy]  Liveries: Forcing materials on: aileron-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.002
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.001
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl2
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl2
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl2
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.001
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.002
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr
+[NoteWorthy]  Liveries: Forcing materials on: aileron-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr.001
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl1
+[NoteWorthy]  Liveries: Forcing materials on: wheelF
+[NoteWorthy]  Liveries: Forcing materials on: a3gearf
+[NoteWorthy]  Liveries: Forcing materials on: wheelF
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr1
+[NoteWorthy]  Liveries: Forcing materials on: a3gearf
+[NoteWorthy]  Liveries: Forcing materials on: wheelF
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl2
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl2
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr2
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr2
+[NoteWorthy]  Liveries: Forcing materials on: wheelR
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorr
+[NoteWorthy]  Liveries: Forcing materials on: a3gearr
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorr
+[NoteWorthy]  Liveries: Forcing materials on: wheelR
+[NoteWorthy]  Liveries: Forcing materials on: Lgear-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3gearr
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorr
+[NoteWorthy]  Liveries: Forcing materials on: wheelR
+[NoteWorthy]  Liveries: Forcing materials on: wheelL
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorl1
+[NoteWorthy]  Liveries: Forcing materials on: a3gearl
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorl1
+[NoteWorthy]  Liveries: Forcing materials on: wheelL
+[NoteWorthy]  Liveries: Forcing materials on: Lgear-L-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3gearl
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorl1
+[NoteWorthy]  Liveries: Forcing materials on: wheelL
+[NoteWorthy]  Liveries: Forcing materials on: a3braker2
+[NoteWorthy]  Liveries: Forcing materials on: airbrk2-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3braker2
+[NoteWorthy]  Liveries: Forcing materials on: a3braker1
+[NoteWorthy]  Liveries: Forcing materials on: airbrk1-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3braker1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr2
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr2
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl1
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl1
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr1
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr1
+[NoteWorthy]  Liveries: Forcing materials on: a3rudder
+[NoteWorthy]  Liveries: Forcing materials on: a3rudder
+[NoteWorthy]  Liveries: Forcing materials on: a3rudder
+[NoteWorthy]  Liveries: Forcing materials on: a3fuselage
+[NoteWorthy]  Liveries: Forcing materials on: a3enginer
+[NoteWorthy]  Liveries: Forcing materials on: a3enginel
+[NoteWorthy]  Liveries: Forcing materials on: a3elevr
+[NoteWorthy]  Liveries: Forcing materials on: a3elevl
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1
+[NoteWorthy]  Liveries: Forcing materials on: a3elevl
+[NoteWorthy]  Liveries: Forcing materials on: a3elevr
+[NoteWorthy]  Liveries: Forcing materials on: a3enginel
+[NoteWorthy]  Liveries: Forcing materials on: a3enginer
+[NoteWorthy]  Liveries: Forcing materials on: a3fuselage
+[NoteWorthy]  Liveries: Forcing materials on: a3rudder
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr1
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl1
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr2
+[NoteWorthy]  Liveries: Forcing materials on: airbrk1-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3braker1
+[NoteWorthy]  Liveries: Forcing materials on: airbrk2-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3braker2
+[NoteWorthy]  Liveries: Forcing materials on: Lgear-L-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3gearl
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorl1
+[NoteWorthy]  Liveries: Forcing materials on: wheelL
+[NoteWorthy]  Liveries: Forcing materials on: Lgear-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3gearr
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorr
+[NoteWorthy]  Liveries: Forcing materials on: wheelR
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr2
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl2
+[NoteWorthy]  Liveries: Forcing materials on: a3gearf
+[NoteWorthy]  Liveries: Forcing materials on: wheelF
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr1
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.001
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.002
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr
+[NoteWorthy]  Liveries: Forcing materials on: aileron-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr.001
+[NoteWorthy]  Liveries: Forcing materials on: FAN1
+[NoteWorthy]  Liveries: Forcing materials on: FAN2
+[NoteWorthy]  Liveries: Forcing materials on: Quad_HeatDistortionShader
+[NoteWorthy]  Liveries: Forcing materials on: Particles : Contrails
+[NoteWorthy]  Liveries: Forcing materials on: Particles : Contrails
+[NoteWorthy]  Liveries: Forcing materials on: Quad_HeatDistortionShader
+[NoteWorthy]  Liveries: Forcing materials on: Quad_HeatDistortionShader
+[NoteWorthy]  Liveries: Forcing materials on: Particles : Contrails
+[NoteWorthy]  Liveries: Forcing materials on: Particles : Contrails
+[NoteWorthy]  Liveries: Forcing materials on: Quad_HeatDistortionShader
+[NoteWorthy]  Liveries: ✔ Applied livery (id=0): Aegean!
+[NoteWorthy]  Script [FIX_FLOATINGPOINT] is now loaded!
+[Important]  >>> GameEvents: OnAircraftInstantiated
+[NoteWorthy]  Script [Pedestal] is now loaded!
+[NoteWorthy]  Script [Flaps] is now loaded!
+[Important]  Init: Loading Aircraft... 40%
+[Important]  Bloom was set to True
+[Important]  Ambient occlusion was set to True
+[NoteWorthy]  Script [Pedestal] is now loaded!
+[NoteWorthy]  Script [Aerodynamics] is now loaded!
+[NoteWorthy]  Script [Avionics] is now loaded!
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(QATAR.jpg)
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: QATAR (async)!
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_A330(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture QATAR to [RANDOM AI AIRCRAFT]AI_A330(Clone)!
+[NoteWorthy]  MySpriteLights: Created 7296 road lights!
+[NoteWorthy]  MySpriteLights: Cleaning up after spawning road lights with tag: MapboxStreet...
+[NoteWorthy]  MySpriteLights: Created 1075 motorway lights!
+[NoteWorthy]  MySpriteLights: Cleaning up after spawning road lights with tag: MapboxMotorway...
+[Important]  MySpriteLights: Destroyed 1075 lights with tag 'MapboxMotorway' and 0 'Roads - 0' and 0 'Motorways - 0'
+[Important]  MySpriteLights: Destroyed 7296 lights with tag 'MapboxStreet' and 0 'Roads - 0' and 0 'Motorways - 0'
+[Important]  Init: Loading Aircraft... 80%
+[Important]  CameraManager: Camera mode cockpit, forcing targetFrameRate = 30!
+[Important]  TimeZoneDB: TimeZoneDB query: https://api.timezonedb.com/v2.1/get-time-zone?key=UCUHEADSKQDM&format=json&by=position&lat=37.933&lng=23.955
+[NoteWorthy]  TimeZoneDB: Submitting GET request for time zone UTC offset...
+[NoteWorthy]  NightMaterials: Attempting to UpdateEmission() ...
+[NoteWorthy]  NavigationDisplay: Drawing Navigation Display...
+[NoteWorthy]  Replay: Replay Init completed, game can record positions for Replay!
+[NoteWorthy]  NavigationDisplay: Drawing Navigation Display...
+[NoteWorthy]  NavigationDisplay: Drawing Navigation Display...
+[NoteWorthy]  NavigationDisplay: Drawing Navigation Display...
+[NoteWorthy]  NavigationDisplay: Drawing Navigation Display...
+[NoteWorthy]  NavigationDisplay: Drawing Navigation Display...
+[Error]  ToggleSwitch: Exception while performing state actions of toggle switch Seatbelts! Object reference not set to an instance of an object.
+[NoteWorthy]  CreateProTooltip : Tooltip already shown, skipping...
+[Important]  InGameLoadingScreen: Destroying loading screen because enough mapbox tiles have been loaded
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A330(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320neo(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_B777(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A330(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_B777(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A330(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320neo(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_B777(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320_decim_prefab(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320_decim_prefab(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320_decim_prefab(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320_decim_prefab(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320_decim_prefab(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320_decim_prefab(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320_decim_prefab(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320_decim_prefab(Clone) to False
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_B777(Clone) Applicable liveries: Emirates, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM AI AIRCRAFT]AI_B777(Clone): Found a matching RANDOM home livery for this airport! (United)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [4410cee0f518c400684497293a6a985e]
+[Important]  NonPlayerAircraftManager: AI_A330(Clone) Applicable liveries: Emirates, QATAR, Turkish
+[NoteWorthy]  NonPlayerAircraftManager:  AI_A330(Clone): Found a matching RANDOM home livery for this airport! (QATAR)
+[NoteWorthy]  Liveries: ⓘ Asset for: [QATAR] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: AI_A330(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture QATAR to AI_A330(Clone)!
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[NoteWorthy]  AIAircraftManager: Checking if an AI aircraft is in the same spawn position as the player
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_B777(Clone) Applicable liveries: Emirates, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_B777(Clone): Found a matching RANDOM home livery for this airport! (Emirates)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [9eac23647961c4a1abf7767be644eb80]
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) Applicable liveries: Aegean, Easyjet, Lufthansa, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone): Found a matching RANDOM home livery for this airport! (United)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [19a540a24fe464b22b44de964993496e]
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_B777(Clone) Applicable liveries: Emirates, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_B777(Clone): Found a matching RANDOM home livery for this airport! (Emirates)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [9eac23647961c4a1abf7767be644eb80]
+[Error]  Liveries: ✗ Failed to load texture: 0 for livery: Emirates (async)!
+[Error]  NonPlayerAircraftManager: Texture for [RANDOM APRON AIRCRAFT] AI_B777(Clone) was loaded null
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A330(Clone) Applicable liveries: Emirates, QATAR, Turkish
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A330(Clone): Found a matching RANDOM home livery for this airport! (Turkish)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [56ee5d35318b14aec8f8e34774431ea2]
+[Important]  ~ Just updated UTC offset from TimeZoneDB.com :3
+[Important]  ~ Just updated UTC offset from TimeZoneDB.com :3
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(United.psd)
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: United (async)!
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_B777(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture United to [RANDOM AI AIRCRAFT]AI_B777(Clone)!
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(Emirates.jpeg)
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: Emirates (async)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_B777(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture Emirates to [RANDOM APRON AIRCRAFT] AI_B777(Clone)!
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(United.jpg)
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: United (async)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture United to [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone)!
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(Turkish.jpg)
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: Turkish (async)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A330(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture Turkish to [RANDOM APRON AIRCRAFT] AI_A330(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) Applicable liveries: Aegean, Easyjet, Lufthansa, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone): Found a matching RANDOM home livery for this airport! (United)
+[NoteWorthy]  Liveries: ⓘ Asset for: [United] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture United to [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) Applicable liveries: Aegean, Easyjet, Lufthansa, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone): Found a matching RANDOM home livery for this airport! (Aegean)
+[NoteWorthy]  Liveries: ⓘ Asset for: [Aegean] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture Aegean to [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) Applicable liveries: Aegean, Easyjet, Lufthansa, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone): Found a matching RANDOM home livery for this airport! (United)
+[NoteWorthy]  Liveries: ⓘ Asset for: [United] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture United to [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320neo(Clone) Applicable liveries: Aegean, SkyExpress, WizzAir
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320neo(Clone): Found a matching RANDOM home livery for this airport! (Aegean)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [e32e9e088d67741afb56d36daa905bc8]
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(Aegean.jpg)
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: Aegean (async)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320neo(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture Aegean to [RANDOM APRON AIRCRAFT] AI_A320neo(Clone)!
+[Important]  CloudManager: Updating cloud colors... color: RGBA(0.918, 0.842, 0.764, 0.800)
+[Important]  SceneIlluminationTracker: Attempting to SetActive(False)  123 gameobjects...
+[Important]  SceneIlluminationTracker: Changing ambientOcclusion to 'True' and Bloom to 'False' because isNight=False
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) Applicable liveries: Aegean, Easyjet, Lufthansa, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone): Found a matching RANDOM home livery for this airport! (United)
+[NoteWorthy]  Liveries: ⓘ Asset for: [United] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture United to [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320neo(Clone) Applicable liveries: Aegean, SkyExpress, WizzAir
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320neo(Clone): Found a matching RANDOM home livery for this airport! (Aegean)
+[NoteWorthy]  Liveries: ⓘ Asset for: [Aegean] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320neo(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture Aegean to [RANDOM APRON AIRCRAFT] AI_A320neo(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A330(Clone) Applicable liveries: Emirates, QATAR, Turkish
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A330(Clone): Found a matching RANDOM home livery for this airport! (QATAR)
+[NoteWorthy]  Liveries: ⓘ Asset for: [QATAR] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A330(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture QATAR to [RANDOM APRON AIRCRAFT] AI_A330(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) Applicable liveries: Aegean, Easyjet, Lufthansa, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone): Found a matching RANDOM home livery for this airport! (United)
+[NoteWorthy]  Liveries: ⓘ Asset for: [United] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture United to [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_B777(Clone) Applicable liveries: Emirates, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_B777(Clone): Found a matching RANDOM home livery for this airport! (Emirates)
+[NoteWorthy]  Liveries: ⓘ Asset for: [Emirates] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_B777(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture Emirates to [RANDOM APRON AIRCRAFT] AI_B777(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) Applicable liveries: Aegean, Easyjet, Lufthansa, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone): Found a matching RANDOM home livery for this airport! (Aegean)
+[NoteWorthy]  Liveries: ⓘ Asset for: [Aegean] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture Aegean to [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) Applicable liveries: Aegean, Easyjet, Lufthansa, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone): Found a matching RANDOM home livery for this airport! (Easyjet)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [daf334f6de07741d0acaa9f142c27c22]
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(Easyjet.psd)
+[NoteWorthy]  Liveries: ✔ Loaded texture: 0 for livery: Easyjet (async)!
+[Important]  NonPlayerAircraftManager: [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture Easyjet to [RANDOM APRON AIRCRAFT] AI_A320_decim_prefab(Clone)!
+[Important]  CloudManager: Checking if clouds are far away...
+[NoteWorthy]  Wind Speed Multiplier: 0.9752336 Turbulence Multiplier: 1.262383
+[Important]  Updating Reflection Probe
+[NoteWorthy]  Running background task to find closest airport...
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of [RANDOM TAKE-OFF AIRCRAFT] AI_A330(Clone) to True
+[NoteWorthy]  Wind Speed Multiplier: 0.9276983 Turbulence Multiplier: 1.286151
+[NoteWorthy]  Running background task to find closest airport...
+[NoteWorthy]  Wind Speed Multiplier: 0.8751274 Turbulence Multiplier: 1.312436
+[NoteWorthy]  MySpriteLights: Not enough road lights (0) to create sprite lights!
+[NoteWorthy]  MySpriteLights: Not enough motorway lights (0) to create sprite lights!
+[NoteWorthy]  Running background task to find closest airport...
+[NoteWorthy]  Wind Speed Multiplier: 0.8202733 Turbulence Multiplier: 1.339863
+[NoteWorthy]  Running background task to find closest airport...
+[NoteWorthy]  Wind Speed Multiplier: 0.7458096 Turbulence Multiplier: 1.377095
+[NoteWorthy]  Running background task to find closest airport...
+[NoteWorthy]  Wind Speed Multiplier: 0.6659885 Turbulence Multiplier: 1.417006
+[NoteWorthy]  MySpriteLights: Not enough road lights (0) to create sprite lights!
+[NoteWorthy]  MySpriteLights: Not enough motorway lights (0) to create sprite lights!
+[NoteWorthy]  Running background task to find closest airport...
+[Important]  CloudManager: Checking if clouds are far away...
+[NoteWorthy]  Wind Speed Multiplier: 0.5996572 Turbulence Multiplier: 1.450171
+[Important]  Updating Reflection Probe
+[NoteWorthy]  Running background task to find closest airport...
+[NoteWorthy]  Wind Speed Multiplier: 0.5558042 Turbulence Multiplier: 1.472098
+[NoteWorthy]  Running background task to find closest airport...
+[NoteWorthy]  DataSyncManager: Syncing...
+[NoteWorthy]  {"LGAV":{"stars":4,"score":1796,"aircraftId":null,"VerticalVelocityTouchdown":-3.46850061,"distanceFromTouchdownZone":201.770813},"FACT":{"stars":4,"score":1606,"aircraftId":null,"VerticalVelocityTouchdown":-3.83466,"distanceFromTouchdownZone":246.739075},"EGSS":{"stars":4,"score":1728,"aircraftId":null,"VerticalVelocityTouchdown":-0.00653213263,"distanceFromTouchdownZone":385.621918}}
+[Important]  Leaderboard: Uploading score to leaderboard:
+[NoteWorthy]  Wind Speed Multiplier: 0.5009748 Turbulence Multiplier: 1.499513
+[NoteWorthy]  MySpriteLights: Not enough road lights (0) to create sprite lights!
+[NoteWorthy]  MySpriteLights: Not enough motorway lights (0) to create sprite lights!
+[Important]  Releasing cockpit addressable: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
+[Important]  Releasing aircraft addressable: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
+[Important]  FlightPlanTracker: Resetting FlightPlanTracker states because we returned to main menu!
+[Important]  MainMenu: ---------------- MainMenu / Awake() ----------------
+[Important]  MainMenu: ---------------- MainMenu / Start() ----------------
+[NoteWorthy]  Applying Livery i=0...
+[NoteWorthy]  Liveries: Applying livery: 0
+[NoteWorthy]  Liveries: ⓘ Asset for: [Aegean] is already loaded, fetching it from memory.
+[NoteWorthy]  Liveries: ✔ Applied livery (id=0): Aegean!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  RemoteConfig: RemoteConfig: Waiting for user to sign in before requesting RemoteConfig...
+[NoteWorthy]  Condition is now true!
+[Important]  RemoteConfig: RemoteConfig: User is signed in, requesting RemoteConfig...
+[NoteWorthy]  Script [MyUnityCloud.RemoteConfig] is now loaded!
+[NoteWorthy]  PlayerAccounts: Starting Authentication...
+[NoteWorthy]  PlayerAccounts: AuthenticationService: Is SignedIn: True
+[NoteWorthy]  PlayerAccounts: Is Authorized: True
+[NoteWorthy]  PlayerAccounts: Is Expired: False
+[NoteWorthy]  PlayerAccounts: Session Token Exists: True
+[NoteWorthy]  PlayerAccounts: PlayerAccountService: Is SignedIn: False
+[NoteWorthy]  PlayerAccounts: SessionTokenExists, Attempting re-login...
+[NoteWorthy]  DataSyncManager: Syncing...
+[Important]  PilotRankSystem: Current Rank : Captain
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[Important]  Liveries: Getting & Refreshing imported liveries!
+[NoteWorthy]  {"LGAV":{"stars":4,"score":1796,"aircraftId":null,"VerticalVelocityTouchdown":-3.46850061,"distanceFromTouchdownZone":201.770813},"FACT":{"stars":4,"score":1606,"aircraftId":null,"VerticalVelocityTouchdown":-3.83466,"distanceFromTouchdownZone":246.739075},"EGSS":{"stars":4,"score":1728,"aircraftId":null,"VerticalVelocityTouchdown":-0.00653213263,"distanceFromTouchdownZone":385.621918}}
+[NoteWorthy]  CreateProTooltip : Tooltip already shown, skipping...
+[Important]  AppTrackingTransparency != DENIED, initializing GDPR request!
+[Important]  AppTrackingTransparency != DENIED, initializing GDPR request!
+[Important]  DataSyncManager: Applying merged playerdata locally...
+[Important]  DataSyncManager: PlayerPrefs XP = 487 merged XP = 487
+[NoteWorthy]  DataSyncManager: Unlocking item =  in PlayerPrefs!
+[Important]  ✓ DataSyncManager: Sync Success!
+[NoteWorthy]  RemoteConfig: RemoteConfig fetched, applying to game...
+[Important]  ✔ Succesfully loaded 1486 waypoints from 'waypoints' Remote Config!
+[Important]  Airport: Airport EGLL has secondary json, loading it...
+[Important]  Airport: Airport KIAD has secondary json, loading it...
+[NoteWorthy]  RemoteConfig: RemoteConfig fetched, applying to game...
+[Important]  ✔ Succesfully loaded 1486 waypoints from 'waypoints' Remote Config!
+[Important]  Airport: Airport EGLL has secondary json, loading it...
+[Important]  Airport: Airport KIAD has secondary json, loading it...
+[Important]  DataSyncManager: Applying merged playerdata locally...
+[Important]  DataSyncManager: PlayerPrefs XP = 487 merged XP = 487
+[NoteWorthy]  DataSyncManager: Unlocking item =  in PlayerPrefs!
+[Important]  ✓ DataSyncManager: Sync Success!
+[Important]  TimeZoneDB: TimeZoneDB query: https://api.timezonedb.com/v2.1/get-time-zone?key=UCUHEADSKQDM&format=json&by=position&lat=37.933&lng=23.955
+[NoteWorthy]  TimeZoneDB: Submitting GET request for time zone UTC offset...
+[NoteWorthy]  to proion A320 DEN einai premium, h den exei kataxwri8ei sto myProducts list.
+[NoteWorthy]  MainMenu: OnDropdownLocationChange()
+[Important]  MainMenu: 'NoAds' not purchased. Showing interstitial.
+[Important]  GlobalAdsManager: DestroyBanner
+[Important]  GlobalAdsManager: DestroyBanner
+[Important]  MapboxTerrainHandler: FileCacheSize set to: 5000
+[Important]  Init: ---------------- Init / Start() ----------------
+[Important]  MySpriteLights: SceneIlluminationTracker.isNight changed (False), updating Sprite Lights mesh renderers....
+[NoteWorthy]  NightMaterials: Attempting to UpdateEmission() ...
+[Important]  SceneIlluminationTracker: Changing ambientOcclusion to 'True' and Bloom to 'False' because isNight=False
+[NoteWorthy]  NightMaterials: Attempting to UpdateEmission() ...
+[Important]  AirportCreatorWeb: Loading airport = LGAV because we are in Generic scene!
+[Important]  AirportCreatorWeb: Set root airport object position according geo coords!
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : [f7016f185df044afda03e81344801832]
+[Important]  ✔  Succesfully loaded asset: Resource<Texture>(grass EDDM style.png)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : Mobile_gangway
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(Mobile_gangway.prefab)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : Passengerbus
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(Passengerbus.prefab)
+[NoteWorthy]  AirportCreatorWeb: Attempting to set mapbox coordinates from airport json...
+[NoteWorthy]  AirportCreatorWeb: Setting location of MapBox Map Map [HighDetail]
+[Important]  AirportCreatorWeb: Succesfully set Mapbox coordinates from Modular Airport Json! 37.933,23.955
+[NoteWorthy]  AirportCreatorWeb: Setting location of MapBox Map Map [MediumDetail]
+[Important]  AirportCreatorWeb: Succesfully set Mapbox coordinates from Modular Airport Json! 37.933,23.955
+[NoteWorthy]  AirportCreatorWeb: Setting location of MapBox Map [ALWAYS ACTIVE] Map [LowDetail]
+[Important]  AirportCreatorWeb: Succesfully set Mapbox coordinates from Modular Airport Json! 37.933,23.955
+[NoteWorthy]  AirportCreatorWeb: Setting location of MapBox Map Map [VeryLowDetail]
+[Important]  AirportCreatorWeb: Succesfully set Mapbox coordinates from Modular Airport Json! 37.933,23.955
+[NoteWorthy]  AirportCreatorWeb: Applying current day/night appropriate lighting for airport!
+[Important]  SceneIlluminationTracker: Attempting to SetActive(False)  2465 gameobjects...
+[Important]  AirportCreatorWeb: Airport does not have coordinates for Airport Objects!
+[NoteWorthy]  RunwayMarker2D: Keeping runway start marker!
+[NoteWorthy]  Script [MapboxTerrainHandler] is now loaded!
+[NoteWorthy]  AirportCreatorWeb: Applying airport Y fix: elevation: 98 , worldShifting.y = 0
+[NoteWorthy]  NightMaterials: Attempting to UpdateEmission() ...
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: jetwayNEW - 4676 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: jetwayNEW - 1792 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: kerb - 2954 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: airport_taxi_marking - 6842 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: mat - 10321 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: schild_taxiway_01 - 33200 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: RunwayStyle_LightSmooth - 568 vertices.
+[NoteWorthy]  Mesh Combiner : Mesh combination successful for material: RunwayStyle_DarkSmooth - 188 vertices.
+[Important]  Init: Loading Aircraft... 20%
+[Important]  Init: Loading player's aircraft from  !--Addressables--! folder
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : A320
+[Important]  SceneIlluminationTracker: Attempting to SetActive(False)  0 gameobjects...
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_A320neo(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_B777(Clone) to False
+[NoteWorthy]  NonPlayerAircraftManager: Set landing spotight of AI_B777(Clone) to False
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(A320.prefab)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : cockpit_A320
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : NavDisplay
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(NavDisplay.prefab)
+[NoteWorthy]  ‣ Attempting to Load Addressable with key : AirbusPFD
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(AirbusPFD.prefab)
+[NoteWorthy]  Applying livery for player ID=0...
+[NoteWorthy]  Applying Livery i=0...
+[NoteWorthy]  Liveries: Applying livery: 0
+[NoteWorthy]  Liveries: ⓘ Asset for: [Aegean] is already loaded, fetching it from memory.
+[Important]  Liveries: Forcing materials on A320_liv...
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr.001
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: aileron-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr
+[NoteWorthy]  Liveries: Forcing materials on: aileron-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.002
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.001
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl2
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl2
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl2
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.001
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.002
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr
+[NoteWorthy]  Liveries: Forcing materials on: aileron-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr.001
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl1
+[NoteWorthy]  Liveries: Forcing materials on: wheelF
+[NoteWorthy]  Liveries: Forcing materials on: a3gearf
+[NoteWorthy]  Liveries: Forcing materials on: wheelF
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr1
+[NoteWorthy]  Liveries: Forcing materials on: a3gearf
+[NoteWorthy]  Liveries: Forcing materials on: wheelF
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl2
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl2
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr2
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr2
+[NoteWorthy]  Liveries: Forcing materials on: wheelR
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorr
+[NoteWorthy]  Liveries: Forcing materials on: a3gearr
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorr
+[NoteWorthy]  Liveries: Forcing materials on: wheelR
+[NoteWorthy]  Liveries: Forcing materials on: Lgear-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3gearr
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorr
+[NoteWorthy]  Liveries: Forcing materials on: wheelR
+[NoteWorthy]  Liveries: Forcing materials on: wheelL
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorl1
+[NoteWorthy]  Liveries: Forcing materials on: a3gearl
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorl1
+[NoteWorthy]  Liveries: Forcing materials on: wheelL
+[NoteWorthy]  Liveries: Forcing materials on: Lgear-L-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3gearl
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorl1
+[NoteWorthy]  Liveries: Forcing materials on: wheelL
+[NoteWorthy]  Liveries: Forcing materials on: a3braker2
+[NoteWorthy]  Liveries: Forcing materials on: airbrk2-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3braker2
+[NoteWorthy]  Liveries: Forcing materials on: a3braker1
+[NoteWorthy]  Liveries: Forcing materials on: airbrk1-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3braker1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr2
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr2
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl1
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl1
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr1
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr1
+[NoteWorthy]  Liveries: Forcing materials on: a3rudder
+[NoteWorthy]  Liveries: Forcing materials on: a3rudder
+[NoteWorthy]  Liveries: Forcing materials on: a3rudder
+[NoteWorthy]  Liveries: Forcing materials on: a3fuselage
+[NoteWorthy]  Liveries: Forcing materials on: a3enginer
+[NoteWorthy]  Liveries: Forcing materials on: a3enginel
+[NoteWorthy]  Liveries: Forcing materials on: a3elevr
+[NoteWorthy]  Liveries: Forcing materials on: a3elevl
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel1
+[NoteWorthy]  Liveries: Forcing materials on: a3elevl
+[NoteWorthy]  Liveries: Forcing materials on: a3elevr
+[NoteWorthy]  Liveries: Forcing materials on: a3enginel
+[NoteWorthy]  Liveries: Forcing materials on: a3enginer
+[NoteWorthy]  Liveries: Forcing materials on: a3fuselage
+[NoteWorthy]  Liveries: Forcing materials on: a3rudder
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr1
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl1
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl1
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapr2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechr2
+[NoteWorthy]  Liveries: Forcing materials on: airbrk1-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3braker1
+[NoteWorthy]  Liveries: Forcing materials on: airbrk2-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3braker2
+[NoteWorthy]  Liveries: Forcing materials on: Lgear-L-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3gearl
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorl1
+[NoteWorthy]  Liveries: Forcing materials on: wheelL
+[NoteWorthy]  Liveries: Forcing materials on: Lgear-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3gearr
+[NoteWorthy]  Liveries: Forcing materials on: a3gdorr
+[NoteWorthy]  Liveries: Forcing materials on: wheelR
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr2
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl2
+[NoteWorthy]  Liveries: Forcing materials on: a3gearf
+[NoteWorthy]  Liveries: Forcing materials on: wheelF
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorl1
+[NoteWorthy]  Liveries: Forcing materials on: a3frgeardoorr1
+[NoteWorthy]  Liveries: Forcing materials on: flaps2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3flapl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wmechl2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.001
+sudo sh -c '> /etc/nginx/sites-available/atlasagent.xyz'y[NoteWorthy]  Liveries: Forcing materials on: a3brakel2-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3brakel2
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl
+[NoteWorthy]  Liveries: Forcing materials on: aileronL-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronl
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (1)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (2)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (3)
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (4)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (5)
+[NoteWorthy]  Liveries: Forcing materials on: Cylinder (6)
+[NoteWorthy]  Liveries: Forcing materials on: a3wingl.002
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr
+[NoteWorthy]  Liveries: Forcing materials on: aileron-R-parent
+[NoteWorthy]  Liveries: Forcing materials on: a3aileronr
+[NoteWorthy]  Liveries: Forcing materials on: light
+[NoteWorthy]  Liveries: Forcing materials on: a3wingr.001
+[NoteWorthy]  Liveries: Forcing materials on: FAN1
+[NoteWorthy]  Liveries: Forcing materials on: FAN2
+[NoteWorthy]  Liveries: Forcing materials on: Quad_HeatDistortionShader
+[NoteWorthy]  Liveries: Forcing materials on: Particles : Contrails
+[NoteWorthy]  Liveries: Forcing materials on: Particles : Contrails
+[NoteWorthy]  Liveries: Forcing materials on: Quad_HeatDistortionShader
+[NoteWorthy]  Liveries: Forcing materials on: Quad_HeatDistortionShader
+[NoteWorthy]  Liveries: Forcing materials on: Particles : Contrails
+[NoteWorthy]  Liveries: Forcing materials on: Particles : Contrails
+[NoteWorthy]  Liveries: Forcing materials on: Quad_HeatDistortionShader
+[Important]  Script [LandingGear] not yet loaded, trying again in 500 ms...
+[NoteWorthy]  Liveries: ✔ Applied livery (id=0): Aegean!
+[NoteWorthy]  Script [FIX_FLOATINGPOINT] is now loaded!
+[Important]  >>> GameEvents: OnAircraftInstantiated
+[Important]  Script [Pedestal] not yet loaded, trying again in 500 ms...
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_B777(Clone) Applicable liveries: Emirates, United
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM AI AIRCRAFT]AI_B777(Clone): Found a matching RANDOM home livery for this airport! (United)
+[NoteWorthy]  Liveries: ⓘ Asset for: [United] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_B777(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture United to [RANDOM AI AIRCRAFT]AI_B777(Clone)!
+[Important]  ✔  Succesfully loaded asset: Resource<GameObject>(cockpit_A320.prefab)
+[Important]  Avionics: Awake()
+[Important]  Adjustable: Added interactable instance Thrust 
+[Important]  Adjustable: Added interactable instance Spoilers 
+[Important]  ToggleSwitch: Added interactable instance PARK_BRAKE_Toggle 
+[Important]  AddressablesManager: loaded cockpit addressable, firing event! OnCockpitAddressableLoaded 
+[NoteWorthy]  Script [Pedestal] is now loaded!
+[NoteWorthy]  Script [Aerodynamics] is now loaded!
+[NoteWorthy]  Script [Avionics] is now loaded!
+[Important]  CockpitInteractableObject: CockpitInteractableObject Initialized for object : engStartSel
+[NoteWorthy]  Script [Aerodynamics] is now loaded!
+[Important]  Avionics: OnAircraftInstantiated()
+[Important]  ToggleSwitch: Added interactable instance WPT 
+[Important]  ToggleSwitch: Added interactable instance NDB 
+[Important]  ToggleSwitch: Added interactable instance VORD 
+[Important]  ToggleSwitch: Added interactable instance APT 
+[Important]  Adjustable: Added interactable instance adjustable_NavRange 
+[Important]  ToggleSwitch: Added interactable instance Toggle_AP1 
+[Important]  ToggleSwitch: Added interactable instance Toggle_ATHR 
+[Important]  FCU Initialized!
+[NoteWorthy]  Script [Pedestal] is now loaded!
+[Important]  Adjustable: Added interactable instance Flaps_Adjustable 
+[Important]  ToggleSwitch: Added interactable instance BAT_ToggleSwitch 
+[Important]  ToggleSwitch: Added interactable instance Seatbelts 
+[NoteWorthy]  Script [LandingGear] is now loaded!
+[NoteWorthy]  Script [Flaps] is now loaded!
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_A320neo(Clone) Applicable liveries: Aegean, SkyExpress, WizzAir
+[NoteWorthy]  NonPlayerAircraftManager:  [RANDOM AI AIRCRAFT]AI_A320neo(Clone): Found a matching RANDOM home livery for this airport! (WizzAir)
+[NoteWorthy]  Liveries: ⓘ Asset for: [WizzAir] is already loaded, fetching it from memory.
+[Important]  NonPlayerAircraftManager: [RANDOM AI AIRCRAFT]AI_A320neo(Clone) : Livery texture is not null, but night emission texture is null, so setting livery...
+[Important]  NonPlayerAircraftManager: Applied livery texture WizzAir to [RANDOM AI AIRCRAFT]AI_A320neo(Clone)!
+[NoteWorthy]  Script [Pedestal] is now loaded!
+[NoteWorthy]  Script [Flaps] is now loaded!
+[Important]  Init: Loading Aircraft... 40%
+[Important]  Bloom was set to True
+[Important]  Ambient occlusion was set to True
+[NoteWorthy]  Condition is now true!
+[NoteWorthy]  Wind Speed Multiplier: 1.043769 Turbulence Multiplier: 1.228116
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 0 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking
+[Important]  AirportCreatorWeb: Found apron_marking < 90m, replacing Parking with a different color
+[Important]  AirportCreatorWeb: Found 1 nearby aprons to parking

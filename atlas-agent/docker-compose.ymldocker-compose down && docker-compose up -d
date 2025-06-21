@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  n8n:
+    image: n8nio/n8n
+    ports:
+      - 5678:5678
+    environment:
+      - WEBHOOK_URL=https://atlasagent.xyz
+      - VUE_APP_URL_BASE_API=https://atlasagent.xyz
+      # Add other environment variables here if needed
+    volumes:
+      - ~/.n8n:/home/node/.n8n
